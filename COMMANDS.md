@@ -100,13 +100,13 @@
 
 `wget 'https://github.com/josephryan/reduce_refseq/raw/master/HumRef2015.fa.gz'`
 
-`gzip -dc meta.fa.gz non_meta.fa.gz HumRef2015.fa.gz > db.fa
+`gzip -dc meta.fa.gz non_meta.fa.gz HumRef2015.fa.gz > db.fa`
 
-`perl -pi -e 's/^>/>ALIEN_/' db.fa
+`perl -pi -e 's/^>/>ALIEN_/' db.fa`
 
-`gzip -dc *.protein.fa.gz >> db.fa
+`gzip -dc *.protein.fa.gz >> db.fa`
 
-`diamond makedb --in db.fa -d alien_index_db
+`diamond makedb --in db.fa -d alien_index_db`
 
 `cd ..`
 
