@@ -150,7 +150,7 @@
 
 `cd ..`
 
-### Orthofinder:
+### Orthofinder: (version 2.5.1)
 
 `mkdir -p 07-ORTHOFINDER_AA/01-INPUT_DATA`
  
