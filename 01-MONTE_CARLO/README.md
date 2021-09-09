@@ -2,7 +2,7 @@
 
 #### mcmc_single_copy.pl
 
-Script to run the Monte Carlo analysis
+Script to run the Monte Carlo analysis. It may be necessary to adjust global variables (in all caps at top of script).
 
 #### 1870_gdor.txt
 
